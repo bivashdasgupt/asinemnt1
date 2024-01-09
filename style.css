@@ -1,0 +1,580 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    height: 600px;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+.banner{
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    background-image: url('resources/Banner\ Image.png'); 
+    border-radius: 16px;
+    
+}
+ .row{ 
+    margin-top: 50px;
+    text-align: center;
+   
+}
+ .greeting>h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 170px;
+}
+
+.celebration>h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; 
+    width: 632px;
+    height: 190px;
+    padding-left: 350px;
+} 
+/* discount section */
+/* .offer{
+    width: 802px;
+    height: 806px;
+    background: #FFF;
+    margin: 120px auto;
+}
+.offer h4{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.offer h2{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.offer img{
+    width: 802.9px;
+    height: 500px;
+    position: relative;
+    transform: translate(-80%);
+}
+
+.offer .text h1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}    */
+   
+.pic, .new-year img{
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    margin-top: 45px;
+    margin-left: 650px;
+} 
+/* section2 */
+.container1{
+    width: 90%;
+    height: 600px;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+.banner1{
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    background-image: url('resources/Vectorrr.png'); 
+    border-radius: 16px;
+   
+    
+}
+ .row1{ 
+    margin-top: 50px;
+    text-align: center;
+   
+}
+ .greeting1>h1{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70px;
+    letter-spacing: 7.04px;
+    width: 642px;
+    display: flex;
+    padding: 150px 400px 10px 90px;
+    text-align: left;
+  
+
+}
+.greeting1, .greeting2{
+    width: 50%;
+    float: left;
+}
+
+ .celebration1>p{ 
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    width: 697px;
+    display: flex;
+    padding:10px 30px 10px 80px ;   
+    text-align: left; 
+
+} 
+.greeting2 img{
+    width: 300px;
+    margin-top: 80px;
+}
+.join{
+    color: #FFF;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 10px;
+
+} 
+.time{
+   
+    width: 1320px;
+    height: 400px;
+    background-color: bisque;
+    border-radius: 16px;
+    margin: 120px auto;
+    padding-top:120px ;
+    
+}
+.pdt{
+    text-align: center;
+}
+.description{
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+   
+}
+span{
+    color: #F00;
+}
+.btn{
+ width: 140px;
+ height: 50px;
+ border-radius: 8px;
+background: #F00;
+color: #FFF;
+border: none;
+font-family: Inter;
+font-size: 15px;
+font-weight: 300;
+text-transform: uppercase;
+margin-top: 20px;
+
+}  
+.btn:hover{
+    opacity: .5;
+}    
+
+.best{
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    margin: 120px auto;
+    display: flex;
+    gap: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+.best .part1 h3{
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 120px;
+
+}
+.best .part1 h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+
+}
+.best .part1 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 250;
+    line-height: 30px; 
+
+}
+.part2{
+    margin: 0px auto;
+}
+.part2 img{
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 364.844px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 49px;
+    
+}
+
+
+.best .part3 h1{
+    color: #F00;
+    font-family:Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-bottom: 16px;
+}
+.best .part3 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size:20px;
+    font-weight: 250;
+    line-height: 30px;
+    margin-bottom: 43px;
+}  
+.best .part3 img{
+    width: 140px;
+    height: 140px;
+}
+/* sale section */
+
+.discount-container {
+    width: 1320px;
+    height: 986px;
+    margin: 120px auto;
+}
+
+.holiday {
+    margin-bottom: 64px;
+}
+
+.holiday h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.holiday h1 {
+    margin-bottom: 28px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.holiday span {
+    color: #F00;
+}
+
+.holiday p {
+    width: 1068px;
+    height: 96px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 0 auto;
+}
+
+.discount-pic {
+    width: 1320px;
+    height: 662px;
+}
+
+.discount-pic1 {
+    background-image: url('resources/Rectangle\ 2.png');
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    position: relative;
+    top: 65.5%;
+}
+
+.discount-pic2 {
+    background-image: url('resources/Group\ 75.png');
+    background-repeat: no-repeat;
+    height: 662px;
+    width: 796.463px;
+    position: absolute;
+    transform: translate(0%, -34.5%);
+}
+
+.discount-pic3 {
+    background-image: url('resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    width: 429px;
+    height: 433px;
+    position: relative;
+    border-radius: 16px 16px 0px 0px;
+    transform: translate(208%, -52.5%);
+}
+
+.discount-pic4 {
+    background-image: url('resources/Group\ 44.png');
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    transform: translate(250%, -200%);
+}
+
+/* gift section */
+.gift-box {
+
+    height: 1163px;
+    width: 1320px;
+    margin: 120px auto;
+}
+
+.gift-box-title h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.gift-box-title h2 {
+    margin-bottom: 22px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.gift-box-title p {
+    margin-bottom: 48px;
+    width: 896px;
+    height: 64px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.gift-pic {
+    height: 924px;
+    width: 1320px;
+}
+
+.gift-pic-row1,
+.gift-pic-row2 {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.gift-pic img {
+    width: 424px;
+    height: 450px;
+    border-radius: 12px;
+}
+
+.gift-pic img:hover {
+    opacity: 0.2;
+}
+
+/* Subscribe section */
+
+.subscribe {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 120px auto;
+    padding-top: 80px;
+}
+
+.subscribe-pic {
+    width: 150px;
+    height: 150px;
+    margin: 0px auto;
+}
+
+.subscribe-title h1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.subscribe-title p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 22px 212px;
+}
+
+.subscribe-form {
+    display: flex;
+    padding: 48px 336px;
+}
+
+.subscribe-form #gmail {
+    width: 438px;
+    height: 72px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.subscribe-form #btn {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#btn:hover{
+    opacity: .5;
+}
+/* footer section */
+.footer-part {
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+    margin: 120px auto;
+    position: relative;
+}
+
+.place {
+    position: absolute;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 120px;
+    margin-left: 140px;
+}
+
+.phn{
+    position: absolute;
+    height: 80px;
+    width: 251px;
+    margin-top: 120px;
+    margin-left: 1074px;
+}
+
+.phn a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.media hr{
+    position: absolute;
+    width: 1320px;
+    height: 0px;
+    background: rgba(0, 0, 0, 0.089);
+    margin: 250px 140px;
+}
+.last{
+    position: absolute;
+    width: 1320px;
+    height: 0px;
+    background: rgba(0, 0, 0, 0.15);
+    margin: 401px 140px;
+}
+
+.logo {
+    height: 64px;
+    width: 328px;
+    position: absolute;
+    margin-top: 296px;
+    margin-left: 640px;
+    display: flex;
+    gap: 24px;
+}
+
+.copyright{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+}
+
+.copyright p {
+    position: absolute;
+    transform: translate(47%, 1500%);
+    
+}
+
+.copyright button {
+    position: absolute;
+    color: #FFF;
+    background-color: #070211;
+    border: none;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    transform: translate(700%,1480%);
+    
+}
